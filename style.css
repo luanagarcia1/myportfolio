@@ -1,0 +1,29 @@
+main, footer, {
+  background-color: #e7eaf6;
+}
+
+.custom-image { 
+width: 400px; height: 550%;
+border-radius: 50%
+ }
+header {
+  background-color: #a2a8d3;
+  font-family: 'Amaranth', sans-serif;
+}
+
+body {
+  text-align: center
+}
+
+hr {
+  border-color: #a2a8d3;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif
+  
+}
+
+ul li {
+  margin-bottom: 10px; 
+}
