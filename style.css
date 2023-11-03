@@ -1,29 +1,75 @@
-main, footer, {
-  background-color: #e7eaf6;
-}
-
-.custom-image { 
-width: 400px; height: 550%;
-border-radius: 50%
- }
-header {
-  background-color: #a2a8d3;
-  font-family: 'Amaranth', sans-serif;
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  text-align: center
+    font-family: 'Arial', sans-serif;
+    background-color: #e7eaf6;
+    text-align: center;
+}
+
+header {
+    background-color: #a2a8d3;
+    font-family: 'Amaranth', sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.custom-image {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+main {
+    padding: 20px;
 }
 
 hr {
-  border-color: #a2a8d3;
+    border-color: #a2a8d3;
+    margin: 20px 0;
 }
 
 p {
-  font-family: 'Quicksand', sans-serif
-  
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    margin: 10px 0;
 }
 
-ul li {
-  margin-bottom: 10px; 
+ol {
+    margin-left: 20px; /* Added some margin to the ordered list */
 }
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #a2a8d3;
+    padding: 20px;
+}
+
+#map-container {
+    text-align: center;
+}
+
